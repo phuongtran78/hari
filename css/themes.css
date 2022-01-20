@@ -16147,6 +16147,15 @@ button.bg-white:focus {
     }
 }
 
+.logo-size {
+    max-width: 120px;
+    height: auto;
+}
+
+.fade-slider {
+    opacity: 0;
+}
+
 .text-lowercase {
     text-transform: lowercase !important;
 }
