@@ -16152,6 +16152,11 @@ button.bg-white:focus {
     height: auto;
 }
 
+.avt-admin {
+    max-width: 30px;
+    height: auto;
+}
+
 .fade-slider {
     opacity: 0;
 }
