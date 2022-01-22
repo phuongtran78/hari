@@ -7616,7 +7616,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #4E7661 !important;
+    /* background-image: linear-gradient(to right, #0455c6, #195bd1, #2661db, #3268e6, #3c6ef1, #257ef8, #098cfc, #009aff, #00b0ff, #00c5ff, #00d8ff, #00e9ff); */
+    background-image: radial-gradient(circle, #0455c6, #195bd1, #2661db, #3268e6, #3c6ef1, #257ef8, #098cfc, #009aff, #00b0ff, #00c5ff, #00d8ff, #00e9ff);
 }
 
 a.bg-primary:hover,
