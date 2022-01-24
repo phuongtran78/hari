@@ -7616,8 +7616,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    /* background-image: linear-gradient(to right, #0455c6, #195bd1, #2661db, #3268e6, #3c6ef1, #257ef8, #098cfc, #009aff, #00b0ff, #00c5ff, #00d8ff, #00e9ff); */
-    background-image: radial-gradient(circle, #0455c6, #195bd1, #2661db, #3268e6, #3c6ef1, #257ef8, #098cfc, #009aff, #00b0ff, #00c5ff, #00d8ff, #00e9ff);
+    background-color: #4E7661;
 }
 
 a.bg-primary:hover,
@@ -13506,6 +13505,18 @@ button.bg-white:focus {
     .pl-lg-18,
     .px-lg-18 {
         padding-left: 13.75rem !important;
+    }
+    .pt-lg-19,
+    .py-lg-19 {
+        padding-top: 16.75rem !important;
+    }
+    .pr-lg-19,
+    .px-lg-19 {
+        padding-right: 16.75rem !important;
+    }
+    .pb-lg-19,
+    .py-lg-19 {
+        padding-bottom: 12.75rem !important;
     }
     .m-lg-n1 {
         margin: -0.3125rem !important;
@@ -21610,10 +21621,12 @@ input.checkbox-primary[type="checkbox"] {
 .topbar {
     line-height: 40px;
     min-height: 40px;
+    display: none;
 }
 
 .topbar-border {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: none;
 }
 
 .navbar>.container,
