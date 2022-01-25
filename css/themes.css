@@ -22414,7 +22414,19 @@ input.checkbox-primary[type="checkbox"] {
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
 }
-
+@media only screen and (max-width: 440px) {
+    /* .bg-img-cover-center {
+        display:none;
+    } */
+    .bg-img-cover-center-2 {
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .slick-list{
+        max-height: 142px !important;
+    }
+}
 @media (max-width: 575.98px) {
     .filter-canvas {
         width: 320px;
@@ -22434,6 +22446,7 @@ input.checkbox-primary[type="checkbox"] {
 .slick-slider .box:focus {
     outline: none;
 }
+
 
 .slick-slider img {
     max-width: 100%;
